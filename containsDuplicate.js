@@ -25,3 +25,6 @@ var containsDuplicate = function(nums) {
 containsDuplicate([1,2,3,1])    //true
 containsDuplicate([2,17,4,22])  //false
 containsDuplicate([])           //false
+
+//Time: O(n) - have to iterate through entire array
+//Space: O(n) - worse case is our object has no duplicates, so we will have to store all the items from the array
